@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1d1f27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background: #2e303e;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+}
+
+h1, p {
+    margin: 20px 0;
+}
+
+button {
+    color: white;
+    background-color: #007bff;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#timerContainer {
+    margin: 20px 0;
+}
+
+#timer {
+    background: #007bff;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    color: white;
+    transition: width 1s linear;
+}
+
+#questionContainer {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.question-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.question-label input[type="radio"] {
+    margin-right: 10px;
+}
+
+.option-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.result-message {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.emoji {
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+#navigationButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#prevButton {
+    margin-right: auto;
+}
+
+#nextButton {
+    margin-left: auto;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="home" class="container fade-in">
+        <h1>Welcome to the Quiz!</h1>
+        <p>This quiz will test your general knowledge on various topics. Get ready to challenge yourself!</p>
+        <button id="startQuiz">Start Quiz</button>
+    </div>
+    <div id="mainContainer" class="container fade-in" style="display:none;">
+        <div id="header">
+            <div id="timerContainer">
+                <div id="timer"></div>
+            </div>
+        </div>
+        <div id="questionContainer"></div>
+        <div id="navigationButtons">
+            <button id="prevButton" style="display:none;">Previous</button>
+            <button id="nextButton" style="display:none;">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

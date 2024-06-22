@@ -1,0 +1,84 @@
+{
+     "quizData": [
+         {
+             "section": "General Knowledge",
+             "questions": [
+                 {
+                     "question": "Who wrote 'To Kill a Mockingbird'?",
+                     "options": ["Harper Lee", "George Orwell", "Jane Austen", "F. Scott Fitzgerald"],
+                     "answer": "Harper Lee"
+                 },
+                 {
+                     "question": "What is the capital of France?",
+                     "options": ["Paris", "London", "Berlin", "Madrid"],
+                     "answer": "Paris"
+                 },
+                 {
+                     "question": "In which year did the Titanic sink?",
+                     "options": ["1912", "1905", "1898", "1920"],
+                     "answer": "1912"
+                 }
+             ]
+         },
+         {
+             "section": "Science",
+             "questions": [
+                 {
+                     "question": "What is the chemical symbol for water?",
+                     "options": ["H2O", "O2", "CO2", "NaCl"],
+                     "answer": "H2O"
+                 },
+                 {
+                     "question": "Who developed the theory of relativity?",
+                     "options": ["Isaac Newton", "Albert Einstein", "Nikola Tesla", "Galileo Galilei"],
+                     "answer": "Albert Einstein"
+                 },
+                 {
+                     "question": "What planet is known as the Red Planet?",
+                     "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+                     "answer": "Mars"
+                 }
+             ]
+         },
+         {
+             "section": "History",
+             "questions": [
+                 {
+                     "question": "Who was the first President of the United States?",
+                     "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+                     "answer": "George Washington"
+                 },
+                 {
+                     "question": "What year did World War II end?",
+                     "options": ["1945", "1940", "1939", "1950"],
+                     "answer": "1945"
+                 },
+                 {
+                     "question": "Who discovered America?",
+                     "options": ["Christopher Columbus", "Marco Polo", "Vasco da Gama", "Ferdinand Magellan"],
+                     "answer": "Christopher Columbus"
+                 }
+             ]
+         },
+         {
+             "section": "Literature",
+             "questions": [
+                 {
+                     "question": "Who wrote 'Pride and Prejudice'?",
+                     "options": ["Jane Austen", "Charlotte Brontë", "Emily Dickinson", "George Eliot"],
+                     "answer": "Jane Austen"
+                 },
+                 {
+                     "question": "In which Shakespeare play does the character Ophelia appear?",
+                     "options": ["Hamlet", "Macbeth", "Othello", "Romeo and Juliet"],
+                     "answer": "Hamlet"
+                 },
+                 {
+                     "question": "Who is the author of '1984'?",
+                     "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "H.G. Wells"],
+                     "answer": "George Orwell"
+                 }
+             ]
+         }
+     ]
+ }
